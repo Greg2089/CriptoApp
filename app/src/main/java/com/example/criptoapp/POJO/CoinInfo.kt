@@ -19,5 +19,5 @@ data class CoinInfo(
 
     @SerializedName("ImageUrl")
     @Expose
-    private val imageUrl: String? = null
+    val imageUrl: String? = null
 )
